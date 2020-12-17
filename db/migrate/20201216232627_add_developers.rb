@@ -9,5 +9,6 @@ class AddDevelopers < ActiveRecord::Migration[6.0]
     end
 
     add_index :developers, :team_id
+    add_index :developers, :phone_number
   end
 end
